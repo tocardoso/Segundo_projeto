@@ -1,5 +1,4 @@
-mermaid
-
+```mermaid
 flowchart TD
     %% Estilos
     classDef inicio_fim fill:#f96,stroke:#333,stroke-width:2px;
@@ -41,3 +40,4 @@ flowchart TD
     WinMsg --> Save[Verificar e Salvar Novo Recorde]
     LoseMsg --> End((<b>FIM</b>)):::inicio_fim
     Save --> End
+```
